@@ -1,0 +1,21 @@
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Node dependencies and build output
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Local databases and generated logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
